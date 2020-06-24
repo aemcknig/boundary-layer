@@ -24,6 +24,8 @@ parameters_jsonschema:
             type: string
         num_workers:
             type: integer
+        idle_delete_ttl_sec:
+            type: integer
         storage_bucket:
             type: string
         init_actions_uris:
